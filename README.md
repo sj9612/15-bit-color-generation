@@ -25,4 +25,4 @@ If you want to create an optimized production build, run `npm run build`
 
 `npm test`
 
-This will run the unit tests for the color generation.
+This will run the unit tests.
