@@ -5,7 +5,7 @@ const App: React.FC = () => {
   return (
     <div role='main' className="flex flex-col items-center justify-center min-h-screen bg-gray-100 px-4">
       <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 text-center">
-        15-Bit Color Concentric Circles
+        Concentric Circles
       </h1>
       <ColorConcentricCircles />
     </div>
