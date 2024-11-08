@@ -2,7 +2,7 @@
 
 ## Clone the Repository
 
-`git clone https://github.com/sj9612/15-bit-color-generation.git`/
+`git clone https://github.com/sj9612/15-bit-color-generation.git` <br />
 `cd 15-bit-color-generation`
 
 ## Install Dependencies
