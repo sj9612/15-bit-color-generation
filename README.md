@@ -1,27 +1,27 @@
 # Setup and Run Instructions
 
-### Clone the Repository
+### 1. Clone the Repository
 
 `git clone https://github.com/sj9612/15-bit-color-generation.git` <br />
 <br />
 `cd 15-bit-color-generation`
 
-### Install Dependencies
+### 2. Install Dependencies
 
 Make sure you have Node.js and npm installed. Then, install the project dependencies:
 `npm install`
 
-### Run the Application
+### 3. Run the Application
 
 To start the application, run the command `npm start`
 
 The app should now be running on [http://localhost:3000](http://localhost:3000).
 
-### Build the Application for Production
+### 4. Build the Application for Production
 
 If you want to create an optimized production build, run `npm run build`
 
-### Run Tests
+### 5. Run Tests
 
 `npm test`
 
