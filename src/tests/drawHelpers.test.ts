@@ -43,7 +43,7 @@ describe('drawConcentricCircles', () => {
     });
 
     test('should call fillRect the correct number of times', () => {
-        const colors = Array(100).fill('rgb(0, 0, 0)'); // Use a smaller set of colors for testing
+        const colors = Array(100).fill('rgb(0, 0, 0)');
         drawConcentricCircles(ctx, colors, 500, 500, 5);
 
         // Check that fillRect is called for each color
