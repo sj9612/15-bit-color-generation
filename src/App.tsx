@@ -1,26 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ColorConcentricCircles from './components/ColorConcentricCircles';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div role='main' className="flex flex-col items-center justify-center min-h-screen bg-gray-100 px-4">
+      <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 text-center">
+        15-Bit Color Concentric Circles
+      </h1>
+      <ColorConcentricCircles />
     </div>
   );
-}
+};
 
 export default App;
+
